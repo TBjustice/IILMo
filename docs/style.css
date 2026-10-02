@@ -39,6 +39,7 @@ body {
   display: flex;
   justify-content: center;
   padding: 0.5rem 0;
+  z-index: 100;
 }
 
 .main-header-content {
@@ -57,6 +58,7 @@ body {
   align-items: center;
   font-size: 2rem;
   gap: 0.5rem;
+  margin-right: auto;
 }
 
 .main-header-nav-list {
@@ -114,23 +116,20 @@ body {
   font-size: 1rem;
 }
 
+.homepage-section {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.homepage-section header{
+  font-size: 1.5rem;
+}
+
 .section-aboutus{
   background-color: var(--surface1);
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
 }
 
-.section-aboutus header{
-  font-size: 1.5rem;
-}
-
-.section-description{
-  display: flex;
-  justify-content: center;
-  padding: 1rem;
-}
-
-.section-description header{
-  font-size: 1.5rem;
+.section-about-icon{
+  background-color: var(--surface1);
 }
